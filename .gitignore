@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+.venv-labelme/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+
+# Android local configuration and build products
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+.cxx/
+.externalNativeBuild/
+
+# Local credentials and signing files
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+
+# Generated model weights and outputs; document download locations instead
+*.pt
+*.pth
+*.onnx
+*.tflite
+runs/
+wandb/
+
+# Personal scratch work
+scratch/
